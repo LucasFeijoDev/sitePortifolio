@@ -1,0 +1,89 @@
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: #414343;
+    font-family: 'Noto Sans', sans-serif;
+    width: 700px;
+}
+
+header > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 189, 223, 1);
+}
+
+.sobre {
+    display: inline;
+    color: rgba(255, 189, 223, 1);
+    text-align: center;
+}
+
+.projeto {
+    display: inline-block;
+    flex-direction: column;
+    color: rgba(255, 189, 223, 1);
+}
+
+.projeto > h1 {
+    text-align: center;
+}
+
+.sectionProjeto {
+    display: inline-block;
+    flex-direction: column;
+    color: rgba(255, 189, 223, 1);
+}
+
+.sectionProjeto > div {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: solid rgba(255, 189, 223, 1) 2px;
+    margin: 0 10px 0 0;
+    border-radius: 20px;
+}
+
+.sectionProjeto img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.projetoFundo {
+    background-color: pink;
+}
+
+.projeto01:hover {
+    box-shadow: 5px 15px 80px 10px rgba(255, 189, 223, 1);
+}
+
+.projeto02:hover {
+    box-shadow: 5px 15px 80px 10px rgba(255, 189, 223, 1);
+}
+
+.projeto03:hover {
+    box-shadow: 5px 15px 80px 10px rgba(255, 189, 223, 1);
+}
+
+.contatoInfo {
+    display: flex;
+    bottom: 0;
+}
+
+
